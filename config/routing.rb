@@ -1,6 +1,9 @@
 require 'hooksler/slack'
 require 'hooksler/newrelic'
 require 'hooksler/trello'
+require 'dotenv'
+
+Dotenv.load
 
 Hooksler::Router.config do
   secret_code 'very_secret_code'

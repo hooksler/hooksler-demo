@@ -10,17 +10,21 @@ PATH
   remote: ../hooksler-newrelic
   specs:
     hooksler-newrelic (0.1.0)
+      hooksler
 
 PATH
   remote: ../hooksler-slack
   specs:
     hooksler-slack (0.1.0)
+      hooksler
       httparty
+      multi_json
 
 PATH
   remote: ../hooksler-trello
   specs:
     hooksler-trello (0.1.0)
+      hooksler
       i18n
       ruby-trello
 
@@ -90,6 +94,3 @@ DEPENDENCIES
   hooksler-slack!
   hooksler-trello!
   thin
-
-BUNDLED WITH
-   1.10.3
